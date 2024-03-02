@@ -22,15 +22,80 @@
     "sha256": "02cd6ce7ccec670cf6d3dd147932f13e584f9e964d5a3297a74b401b658471ae"
   },
   {
-    "name": "DeepseekCoder-6.7B-instruct-Q5_K_S",
+    "name": "DeepseekCoder-6.7B-instruct-Q5KM",
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
     "urls": [
-      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_K_S>
+      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_K_M.gguf"
     ],
-    "sha256": "02cd6ce7ccec670cf6d3dd147932f13e584f9e964d5a3297a74b401b658471ae"
+    "sha256": "1362c06f3036b4c4994bd8497ecbc0b487acb67e568b4addb4b17fc1e863f688"
+  },
+  {
+    "name": "DeepseekCoder-6.7B-base-Q6",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+    "urls": [
+      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q6_K.gguf"
+    ],
+    "sha256": "e3bab613303f5f356b219900384693a3860f283fa95e03ebbc0209970d705643"
+  },
+  {
+    "name": "DeepseekCoder-6.7B-base-Q5KS",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+    "urls": [
+      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q5_K_S.gguf"
+    ],
+    "sha256": "d5bdc0055fa248bd0256d7684834134406d110e08403072b87f964ea495d6f7d"
+  },
+  {
+    "name": "DeepseekCoder-6.7B-base-Q5KM",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+    "urls": [
+      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q5_K_M.gguf"
+    ],
+    "sha256": "de874d119b3a8e6e7d5ca066cc8e8c0038196c9b3524a50ed2c967a1bcb641b9"
+  },
+  {
+    "name": "StarCoder2-7b-Q8",
+    "license_name": "Apache License 2.0",
+    "license_url": "https://github.com/bigcode-project/starcoder2/blob/main/LICENSE",
+    "prompt_template":  "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
+    "provider_url": "https://huggingface.co/bigcode/starcoder2-7b",
+    "urls": [
+      "https://huggingface.co/second-state/StarCoder2-7B-GGUF/resolve/main/starcoder2-7b-Q8_0.gguf"
+    ],
+    "sha256": "48b4842e14dc891e2abd7165ad36297cb45b702db0f98325f83fb0a94fd68dd8"
+  },
+  {
+    "name": "StarCoder2-15b-Q8",
+    "license_name": "Apache License 2.0",
+    "license_url": "https://github.com/bigcode-project/starcoder2/blob/main/LICENSE",
+    "prompt_template":  "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
+    "provider_url": "https://huggingface.co/bigcode/starcoder2-15b",
+    "urls": [
+      "https://huggingface.co/second-state/StarCoder2-15B-GGUF/resolve/main/starcoder2-15b-Q8_0.gguf"
+    ],
+    "sha256": "6cfe972755f7924cf8c176cb8607027f105196b8abb7614a2f680e84171cb418"
+  },
+  {
+    "name": "StarCoder2-15b-Q6",
+    "license_name": "Apache License 2.0",
+    "license_url": "https://github.com/bigcode-project/starcoder2/blob/main/LICENSE",
+    "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
+    "provider_url": "https://huggingface.co/bigcode/starcoder2-15b",
+    "urls": [
+      "https://huggingface.co/second-state/StarCoder2-15B-GGUF/resolve/main/starcoder2-15b-Q6_K.gguf"
+    ],
+    "sha256": "bd783f44967694913300e403f838d699fc850fdd3b14935b55307607a7d0e97f"
   }
-
 ]
