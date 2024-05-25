@@ -105,7 +105,7 @@
     "prompt_template":  "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
     "provider_url": "https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1",
     "urls": [
-      "https://huggingface.co/second-state/StarCoder2-15B-Instruct-v0.1-GGUF/blob/main/starcoder2-15b-instruct-v0.1-Q8_0.gguf"
+      "https://huggingface.co/second-state/StarCoder2-15B-Instruct-v0.1-GGUF/resolve/main/starcoder2-15b-instruct-v0.1-Q8_0.gguf"
     ],
     "sha256": "4326cddb71d391bb6a1423b446ff162f319418cde908f952ddbb85009f172297"
   }
