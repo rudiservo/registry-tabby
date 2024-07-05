@@ -14,7 +14,7 @@
     "name": "DeepseekCoder-6.7B-instruct-Q6",
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
-    "prompt_template": "<｜fim_begin｜>{prefix}<｜fim_hole｜>{suffix}<｜fim_end｜>",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fime▁nd｜>",
     "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
     "urls": [
       "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q6_K.gguf"
@@ -25,7 +25,7 @@
     "name": "DeepseekCoder-6.7B-instruct-Q8",
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
-    "prompt_template": "<｜fim_begin｜>{prefix}<｜fim_hole｜>{suffix}<｜fim_end｜>",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
     "urls": [
       "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q8_0.gguf"
